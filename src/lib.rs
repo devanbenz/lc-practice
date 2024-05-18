@@ -12,4 +12,6 @@ mod tests {
         assert_eq!(result, 4);
     }
 }
+pub mod _1932_merge_bsts_to_create_single_bst;
+pub mod _459_repeated_substring_pattern;
 pub mod binary_tree_inorder_traversal;

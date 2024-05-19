@@ -13,5 +13,7 @@ mod tests {
     }
 }
 pub mod _1932_merge_bsts_to_create_single_bst;
+pub mod _1_two_sum;
 pub mod _459_repeated_substring_pattern;
+pub mod _56_merge_intervals;
 pub mod binary_tree_inorder_traversal;

@@ -7,9 +7,9 @@ impl Solution {
         let str_bytes = s.into_bytes();
         let str_bytes_len = str_bytes.len();
 
-        for len in 1..=str_bytes_len/2 {
+        for len in 1..=str_bytes_len / 2 {
             if str_bytes[..len].repeat(str_bytes_len / len) == str_bytes {
-                return true
+                return true;
             }
         }
 
@@ -51,7 +51,7 @@ mod tests {
     use rstest::rstest;
 
     #[rstest]
-    #[case("abab",true)]
+    #[case("abab", true)]
     #[case("aba", false)]
     #[case("abcabcabcabc", true)]
     fn case(#[case] s: String, #[case] expected: bool) {
